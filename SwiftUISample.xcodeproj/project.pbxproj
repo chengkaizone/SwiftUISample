@@ -13,6 +13,10 @@
 		EA30D18F23B3312F0025E1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA30D18E23B3312F0025E1B4 /* Assets.xcassets */; };
 		EA30D19223B3312F0025E1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA30D19123B3312F0025E1B4 /* Preview Assets.xcassets */; };
 		EA30D19523B3312F0025E1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA30D19323B3312F0025E1B4 /* LaunchScreen.storyboard */; };
+		EA30D19E23B33D7F0025E1B4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D19D23B33D7F0025E1B4 /* WebViewController.swift */; };
+		EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D19F23B340E90025E1B4 /* ListRowView.swift */; };
+		EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */; };
+		EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EA30D19123B3312F0025E1B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA30D19423B3312F0025E1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA30D19623B3312F0025E1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA30D19D23B33D7F0025E1B4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		EA30D19F23B340E90025E1B4 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerWrapper.swift; sourceTree = "<group>"; };
+		EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		EA30D19C23B33B610025E1B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA30D19D23B33D7F0025E1B4 /* WebViewController.swift */,
+				EA30D19F23B340E90025E1B4 /* ListRowView.swift */,
+				EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */,
+				EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,7 +168,11 @@
 			files = (
 				EA30D18923B3312B0025E1B4 /* AppDelegate.swift in Sources */,
 				EA30D18B23B3312B0025E1B4 /* SceneDelegate.swift in Sources */,
+				EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */,
+				EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */,
 				EA30D18D23B3312B0025E1B4 /* ContentView.swift in Sources */,
+				EA30D19E23B33D7F0025E1B4 /* WebViewController.swift in Sources */,
+				EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
