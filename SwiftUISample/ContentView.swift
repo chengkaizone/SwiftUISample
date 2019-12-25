@@ -20,6 +20,11 @@ struct ContentView: View {
                         ListRowView(title: "ControllerWrapper", subtitle: "包装现有的UIViewController")
                     }
                 }
+                Section(header: Text("Text")) {
+                    NavigationLink(destination: TextViewPage()) {
+                        ListRowView(title: "Text", subtitle: "Text的用法")
+                    }
+                }
             }.listStyle(GroupedListStyle())
             .navigationBarTitle(Text("示例演示"), displayMode: .large)
             .navigationBarItems(trailing: Button(action: {

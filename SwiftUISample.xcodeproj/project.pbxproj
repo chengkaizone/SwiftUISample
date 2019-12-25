@@ -17,6 +17,7 @@
 		EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D19F23B340E90025E1B4 /* ListRowView.swift */; };
 		EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */; };
 		EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */; };
+		EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A523B353110025E1B4 /* TextViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EA30D19F23B340E90025E1B4 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerWrapper.swift; sourceTree = "<group>"; };
 		EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		EA30D1A523B353110025E1B4 /* TextViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				EA30D19F23B340E90025E1B4 /* ListRowView.swift */,
 				EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */,
 				EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */,
+				EA30D1A523B353110025E1B4 /* TextViewPage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				EA30D18923B3312B0025E1B4 /* AppDelegate.swift in Sources */,
 				EA30D18B23B3312B0025E1B4 /* SceneDelegate.swift in Sources */,
+				EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */,
 				EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */,
 				EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */,
 				EA30D18D23B3312B0025E1B4 /* ContentView.swift in Sources */,
