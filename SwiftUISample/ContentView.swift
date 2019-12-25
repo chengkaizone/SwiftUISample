@@ -24,6 +24,9 @@ struct ContentView: View {
                     NavigationLink(destination: TextViewPage()) {
                         ListRowView(title: "Text", subtitle: "Text的用法")
                     }
+                    NavigationLink(destination: TextFieldView()) {
+                        ListRowView(title: "TextField", subtitle: "TextField的用法")
+                    }
                 }
             }.listStyle(GroupedListStyle())
             .navigationBarTitle(Text("示例演示"), displayMode: .large)

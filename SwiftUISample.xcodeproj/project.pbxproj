@@ -18,6 +18,7 @@
 		EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */; };
 		EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */; };
 		EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A523B353110025E1B4 /* TextViewPage.swift */; };
+		EA30D1A823B35DF50025E1B4 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A723B35DF50025E1B4 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerWrapper.swift; sourceTree = "<group>"; };
 		EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		EA30D1A523B353110025E1B4 /* TextViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPage.swift; sourceTree = "<group>"; };
+		EA30D1A723B35DF50025E1B4 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				EA30D1A123B348CD0025E1B4 /* ControllerWrapper.swift */,
 				EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */,
 				EA30D1A523B353110025E1B4 /* TextViewPage.swift */,
+				EA30D1A723B35DF50025E1B4 /* TextFieldView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				EA30D18D23B3312B0025E1B4 /* ContentView.swift in Sources */,
 				EA30D19E23B33D7F0025E1B4 /* WebViewController.swift in Sources */,
 				EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */,
+				EA30D1A823B35DF50025E1B4 /* TextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
