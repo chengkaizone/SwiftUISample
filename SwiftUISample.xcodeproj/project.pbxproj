@@ -19,6 +19,9 @@
 		EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */; };
 		EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A523B353110025E1B4 /* TextViewPage.swift */; };
 		EA30D1A823B35DF50025E1B4 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A723B35DF50025E1B4 /* TextFieldView.swift */; };
+		EA30D1AA23B363630025E1B4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A923B363630025E1B4 /* ButtonView.swift */; };
+		EA30D1AC23B365260025E1B4 /* ImageViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1AB23B365260025E1B4 /* ImageViewSample.swift */; };
+		EA30D1AE23B367140025E1B4 /* NavigationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1AD23B367140025E1B4 /* NavigationButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		EA30D1A523B353110025E1B4 /* TextViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPage.swift; sourceTree = "<group>"; };
 		EA30D1A723B35DF50025E1B4 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		EA30D1A923B363630025E1B4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		EA30D1AB23B365260025E1B4 /* ImageViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewSample.swift; sourceTree = "<group>"; };
+		EA30D1AD23B367140025E1B4 /* NavigationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				EA30D1A323B34A5C0025E1B4 /* MyViewController.swift */,
 				EA30D1A523B353110025E1B4 /* TextViewPage.swift */,
 				EA30D1A723B35DF50025E1B4 /* TextFieldView.swift */,
+				EA30D1A923B363630025E1B4 /* ButtonView.swift */,
+				EA30D1AD23B367140025E1B4 /* NavigationButtonView.swift */,
+				EA30D1AB23B365260025E1B4 /* ImageViewSample.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,13 +183,16 @@
 			files = (
 				EA30D18923B3312B0025E1B4 /* AppDelegate.swift in Sources */,
 				EA30D18B23B3312B0025E1B4 /* SceneDelegate.swift in Sources */,
+				EA30D1AA23B363630025E1B4 /* ButtonView.swift in Sources */,
 				EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */,
+				EA30D1AE23B367140025E1B4 /* NavigationButtonView.swift in Sources */,
 				EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */,
 				EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */,
 				EA30D18D23B3312B0025E1B4 /* ContentView.swift in Sources */,
 				EA30D19E23B33D7F0025E1B4 /* WebViewController.swift in Sources */,
 				EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */,
 				EA30D1A823B35DF50025E1B4 /* TextFieldView.swift in Sources */,
+				EA30D1AC23B365260025E1B4 /* ImageViewSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

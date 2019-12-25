@@ -28,6 +28,18 @@ struct ContentView: View {
                         ListRowView(title: "TextField", subtitle: "TextField的用法")
                     }
                 }
+                
+                Section(header: Text("Button")) {
+                    NavigationLink(destination: ButtonView()) {
+                        ListRowView(title: "Button", subtitle: "Button点击演示")
+                    }
+                    NavigationLink(destination: NavigationButtonView()) {
+                        ListRowView(title: "NavigationButton", subtitle: "导航按钮跳转演示")
+                    }
+                    NavigationLink(destination: Text("显示简单内容Text")) {
+                        ListRowView(title: "PresentationButton", subtitle: "跳转按钮仅仅绑定Text跳转，无单独页面")
+                    }
+                }
             }.listStyle(GroupedListStyle())
             .navigationBarTitle(Text("示例演示"), displayMode: .large)
             .navigationBarItems(trailing: Button(action: {
