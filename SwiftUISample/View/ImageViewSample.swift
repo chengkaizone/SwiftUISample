@@ -10,10 +10,15 @@ import SwiftUI
 
 struct ImageViewSample: View {
     
-    
     var body: some View {
         
-        Text("Image")
+        VStack {
+            ForEach(0..<6) { index in
+                Image("icon")
+                .resizable()
+                    .frame(width: CGFloat(30 * index), height: CGFloat(24 * index))
+            }
+        }.navigationBarTitle("Image Sample")
     }
     
 }

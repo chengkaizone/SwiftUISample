@@ -22,6 +22,13 @@
 		EA30D1AA23B363630025E1B4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1A923B363630025E1B4 /* ButtonView.swift */; };
 		EA30D1AC23B365260025E1B4 /* ImageViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1AB23B365260025E1B4 /* ImageViewSample.swift */; };
 		EA30D1AE23B367140025E1B4 /* NavigationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30D1AD23B367140025E1B4 /* NavigationButtonView.swift */; };
+		EA48301023B5F40C00E596DA /* WebImageViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48300F23B5F40C00E596DA /* WebImageViewSample.swift */; };
+		EA48301223B5F7D400E596DA /* PickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301123B5F7D400E596DA /* PickerSample.swift */; };
+		EA48301423B5F7F300E596DA /* DatePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301323B5F7F300E596DA /* DatePickerSample.swift */; };
+		EA48301623B5F80B00E596DA /* ToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301523B5F80B00E596DA /* ToggleSample.swift */; };
+		EA48301823B5F81800E596DA /* SliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301723B5F81800E596DA /* SliderSample.swift */; };
+		EA48301A23B5F82400E596DA /* StepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301923B5F82400E596DA /* StepperSample.swift */; };
+		EA48301D23B6069B00E596DA /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301C23B6069B00E596DA /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,13 @@
 		EA30D1A923B363630025E1B4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		EA30D1AB23B365260025E1B4 /* ImageViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewSample.swift; sourceTree = "<group>"; };
 		EA30D1AD23B367140025E1B4 /* NavigationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonView.swift; sourceTree = "<group>"; };
+		EA48300F23B5F40C00E596DA /* WebImageViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageViewSample.swift; sourceTree = "<group>"; };
+		EA48301123B5F7D400E596DA /* PickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSample.swift; sourceTree = "<group>"; };
+		EA48301323B5F7F300E596DA /* DatePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSample.swift; sourceTree = "<group>"; };
+		EA48301523B5F80B00E596DA /* ToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSample.swift; sourceTree = "<group>"; };
+		EA48301723B5F81800E596DA /* SliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSample.swift; sourceTree = "<group>"; };
+		EA48301923B5F82400E596DA /* StepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperSample.swift; sourceTree = "<group>"; };
+		EA48301C23B6069B00E596DA /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 		EA30D18723B3312B0025E1B4 /* SwiftUISample */ = {
 			isa = PBXGroup;
 			children = (
+				EA48301B23B6068500E596DA /* extension */,
 				EA30D19C23B33B610025E1B4 /* View */,
 				EA30D18823B3312B0025E1B4 /* AppDelegate.swift */,
 				EA30D18A23B3312B0025E1B4 /* SceneDelegate.swift */,
@@ -106,8 +121,22 @@
 				EA30D1A923B363630025E1B4 /* ButtonView.swift */,
 				EA30D1AD23B367140025E1B4 /* NavigationButtonView.swift */,
 				EA30D1AB23B365260025E1B4 /* ImageViewSample.swift */,
+				EA48300F23B5F40C00E596DA /* WebImageViewSample.swift */,
+				EA48301123B5F7D400E596DA /* PickerSample.swift */,
+				EA48301323B5F7F300E596DA /* DatePickerSample.swift */,
+				EA48301523B5F80B00E596DA /* ToggleSample.swift */,
+				EA48301723B5F81800E596DA /* SliderSample.swift */,
+				EA48301923B5F82400E596DA /* StepperSample.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EA48301B23B6068500E596DA /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA48301C23B6069B00E596DA /* DateExtension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +211,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA30D18923B3312B0025E1B4 /* AppDelegate.swift in Sources */,
+				EA48301623B5F80B00E596DA /* ToggleSample.swift in Sources */,
 				EA30D18B23B3312B0025E1B4 /* SceneDelegate.swift in Sources */,
 				EA30D1AA23B363630025E1B4 /* ButtonView.swift in Sources */,
+				EA48301223B5F7D400E596DA /* PickerSample.swift in Sources */,
+				EA48301D23B6069B00E596DA /* DateExtension.swift in Sources */,
+				EA48301A23B5F82400E596DA /* StepperSample.swift in Sources */,
 				EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */,
+				EA48301023B5F40C00E596DA /* WebImageViewSample.swift in Sources */,
+				EA48301823B5F81800E596DA /* SliderSample.swift in Sources */,
 				EA30D1AE23B367140025E1B4 /* NavigationButtonView.swift in Sources */,
 				EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */,
 				EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */,
@@ -192,6 +227,7 @@
 				EA30D19E23B33D7F0025E1B4 /* WebViewController.swift in Sources */,
 				EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */,
 				EA30D1A823B35DF50025E1B4 /* TextFieldView.swift in Sources */,
+				EA48301423B5F7F300E596DA /* DatePickerSample.swift in Sources */,
 				EA30D1AC23B365260025E1B4 /* ImageViewSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
