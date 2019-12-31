@@ -29,6 +29,14 @@
 		EA48301823B5F81800E596DA /* SliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301723B5F81800E596DA /* SliderSample.swift */; };
 		EA48301A23B5F82400E596DA /* StepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301923B5F82400E596DA /* StepperSample.swift */; };
 		EA48301D23B6069B00E596DA /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301C23B6069B00E596DA /* DateExtension.swift */; };
+		EAB408D723BAF693000127FC /* ForEachViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB408D623BAF693000127FC /* ForEachViewSample.swift */; };
+		EAB408D923BAF9AB000127FC /* GroupViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB408D823BAF9AB000127FC /* GroupViewSample.swift */; };
+		EAB408DB23BB1109000127FC /* SectionViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB408DA23BB1109000127FC /* SectionViewSample.swift */; };
+		EAC40CA623B9E581002583B5 /* HStackViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC40CA523B9E581002583B5 /* HStackViewSample.swift */; };
+		EAC40CA823B9E599002583B5 /* VStackViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC40CA723B9E599002583B5 /* VStackViewSample.swift */; };
+		EAC40CAA23B9FD48002583B5 /* ZStackViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC40CA923B9FD48002583B5 /* ZStackViewSample.swift */; };
+		EAC40CAC23B9FE3A002583B5 /* ListViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC40CAB23B9FE3A002583B5 /* ListViewSample.swift */; };
+		EAC40CAE23B9FEE4002583B5 /* ScrollViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC40CAD23B9FEE4002583B5 /* ScrollViewSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +64,14 @@
 		EA48301723B5F81800E596DA /* SliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSample.swift; sourceTree = "<group>"; };
 		EA48301923B5F82400E596DA /* StepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperSample.swift; sourceTree = "<group>"; };
 		EA48301C23B6069B00E596DA /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		EAB408D623BAF693000127FC /* ForEachViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachViewSample.swift; sourceTree = "<group>"; };
+		EAB408D823BAF9AB000127FC /* GroupViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewSample.swift; sourceTree = "<group>"; };
+		EAB408DA23BB1109000127FC /* SectionViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewSample.swift; sourceTree = "<group>"; };
+		EAC40CA523B9E581002583B5 /* HStackViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackViewSample.swift; sourceTree = "<group>"; };
+		EAC40CA723B9E599002583B5 /* VStackViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackViewSample.swift; sourceTree = "<group>"; };
+		EAC40CA923B9FD48002583B5 /* ZStackViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackViewSample.swift; sourceTree = "<group>"; };
+		EAC40CAB23B9FE3A002583B5 /* ListViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewSample.swift; sourceTree = "<group>"; };
+		EAC40CAD23B9FEE4002583B5 /* ScrollViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +143,14 @@
 				EA48301523B5F80B00E596DA /* ToggleSample.swift */,
 				EA48301723B5F81800E596DA /* SliderSample.swift */,
 				EA48301923B5F82400E596DA /* StepperSample.swift */,
+				EAC40CA523B9E581002583B5 /* HStackViewSample.swift */,
+				EAC40CA723B9E599002583B5 /* VStackViewSample.swift */,
+				EAC40CA923B9FD48002583B5 /* ZStackViewSample.swift */,
+				EAC40CAB23B9FE3A002583B5 /* ListViewSample.swift */,
+				EAC40CAD23B9FEE4002583B5 /* ScrollViewSample.swift */,
+				EAB408D623BAF693000127FC /* ForEachViewSample.swift */,
+				EAB408D823BAF9AB000127FC /* GroupViewSample.swift */,
+				EAB408DA23BB1109000127FC /* SectionViewSample.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,18 +234,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC40CAA23B9FD48002583B5 /* ZStackViewSample.swift in Sources */,
 				EA30D18923B3312B0025E1B4 /* AppDelegate.swift in Sources */,
 				EA48301623B5F80B00E596DA /* ToggleSample.swift in Sources */,
 				EA30D18B23B3312B0025E1B4 /* SceneDelegate.swift in Sources */,
 				EA30D1AA23B363630025E1B4 /* ButtonView.swift in Sources */,
+				EAC40CAE23B9FEE4002583B5 /* ScrollViewSample.swift in Sources */,
 				EA48301223B5F7D400E596DA /* PickerSample.swift in Sources */,
 				EA48301D23B6069B00E596DA /* DateExtension.swift in Sources */,
+				EAC40CAC23B9FE3A002583B5 /* ListViewSample.swift in Sources */,
 				EA48301A23B5F82400E596DA /* StepperSample.swift in Sources */,
 				EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */,
 				EA48301023B5F40C00E596DA /* WebImageViewSample.swift in Sources */,
+				EAB408D923BAF9AB000127FC /* GroupViewSample.swift in Sources */,
 				EA48301823B5F81800E596DA /* SliderSample.swift in Sources */,
 				EA30D1AE23B367140025E1B4 /* NavigationButtonView.swift in Sources */,
 				EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */,
+				EAC40CA823B9E599002583B5 /* VStackViewSample.swift in Sources */,
+				EAC40CA623B9E581002583B5 /* HStackViewSample.swift in Sources */,
+				EAB408DB23BB1109000127FC /* SectionViewSample.swift in Sources */,
+				EAB408D723BAF693000127FC /* ForEachViewSample.swift in Sources */,
 				EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */,
 				EA30D18D23B3312B0025E1B4 /* ContentView.swift in Sources */,
 				EA30D19E23B33D7F0025E1B4 /* WebViewController.swift in Sources */,

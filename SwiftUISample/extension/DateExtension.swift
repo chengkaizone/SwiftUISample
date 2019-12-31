@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 extension Date {
     
@@ -15,5 +16,12 @@ extension Date {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
         return formatter.string(from: self)
+    }
+}
+
+extension Color {
+    
+    var gradient: AngularGradient {
+        return AngularGradient(gradient: Gradient(colors: [self]), center: .center)
     }
 }

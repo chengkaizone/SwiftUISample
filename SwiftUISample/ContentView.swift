@@ -64,6 +64,34 @@ struct ContentView: View {
                         ListRowView(title: "Stepper", subtitle: "加减步长设置组件")
                     }
                 }
+                
+                Section(header: Text("布局容器")) {
+                    NavigationLink(destination: HStackViewSample()) {
+                        ListRowView(title: "HStack", subtitle: "HStack用法示例")
+                    }
+                    NavigationLink(destination: VStackViewSample()) {
+                        ListRowView(title: "VStack", subtitle: "VStack用法示例")
+                    }
+                    NavigationLink(destination: ZStackViewSample()) {
+                        ListRowView(title: "ZStack", subtitle: "ZStack用法示例")
+                    }
+                    NavigationLink(destination: ListViewSample()) {
+                        ListRowView(title: "List", subtitle: "List列表视图")
+                    }
+                    NavigationLink(destination: ScrollViewSample()) {
+                        ListRowView(title: "ScrollView", subtitle: "滚动视图用法示例")
+                    }
+                    NavigationLink(destination: ForEachViewSample()) {
+                        ListRowView(title: "ForEach", subtitle: "用于根据已有数据的集合暂时视图")
+                    }
+                    NavigationLink(destination: GroupViewSample()) {
+                        ListRowView(title: "Group", subtitle: "用于集合多个视图，对Group设置的属性")
+                    }
+                    NavigationLink(destination: SectionViewSample()) {
+                        ListRowView(title: "Section", subtitle: "用于创建带模块头和尾的视图")
+                    }
+                }
+                
             }.listStyle(GroupedListStyle())
             .navigationBarTitle(Text("示例演示"), displayMode: .large)
             .navigationBarItems(trailing: Button(action: {
