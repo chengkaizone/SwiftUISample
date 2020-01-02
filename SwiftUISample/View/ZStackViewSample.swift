@@ -14,8 +14,10 @@ struct ZStackViewSample: View {
         
         ZStack {
             Text("ZStack made in China")
-            Divider()
+            .padding(EdgeInsets(top: 0, leading: 0, bottom: 24, trailing: 0))
+            Divider().padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 15))
             Text("the People's Republic Of China")
+            .padding(EdgeInsets(top: 24, leading: 0, bottom: 0, trailing: 0))
         }.navigationBarTitle("ZStack示例")
     }
 }

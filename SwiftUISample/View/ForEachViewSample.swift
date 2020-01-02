@@ -12,14 +12,18 @@ struct ForEachViewSample: View {
     
     var body: some View {
         
-        ForEach(0..<35) { index in
-            Text("Hello ForEach \(index)")
-            .bold()
-                .font(.system(size: 25, design: .monospaced))
-            .padding(5)
-        }.border(Color.gray.gradient, width: 1)
-        .cornerRadius(10)
-        .navigationBarTitle("ForEach用法示例")
+        ScrollView {
+            ForEach(0..<35) { index in
+                Text("Hello ForEach \(index)")
+                .bold()
+                    .font(.system(size: 25, design: .monospaced))
+                .padding(5)
+            }
+            .cornerRadius(10)
+            .border(Color.gray.gradient, width: 1)
+            .navigationBarTitle("ForEach用法示例")
+        }
+        
     }
     
 }

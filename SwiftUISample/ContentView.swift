@@ -91,7 +91,28 @@ struct ContentView: View {
                         ListRowView(title: "Section", subtitle: "用于创建带模块头和尾的视图")
                     }
                 }
-                
+                Section(header: Text("导航视图")) {
+                    NavigationLink(destination: NavigationViewSample()) {
+                        ListRowView(title: "NavigationView", subtitle: "包含顶部导航栏的视图容器")
+                    }
+                    NavigationLink(destination: TabViewSample()) {
+                        ListRowView(title: "TabView", subtitle: "包含TabView标签栏的视图容器")
+                    }
+                }
+                Section(header: Text("Alert对话框视图")) {
+                    NavigationLink(destination: AlertViewSample()) {
+                        ListRowView(title: "AlertView", subtitle: "展示一个对话框视图")
+                    }
+                    NavigationLink(destination: ActionSheetSample()) {
+                        ListRowView(title: "ActionSheet", subtitle: "底部弹出选择对话框")
+                    }
+                    NavigationLink(destination: ModalViewSample()) {
+                        ListRowView(title: "ModalView", subtitle: "弹出模态视图对话框")
+                    }
+                    NavigationLink(destination: PopoverViewSample()) {
+                        ListRowView(title: "Popover", subtitle: "Pop弹出一个视图")
+                    }
+                }
             }.listStyle(GroupedListStyle())
             .navigationBarTitle(Text("示例演示"), displayMode: .large)
             .navigationBarItems(trailing: Button(action: {

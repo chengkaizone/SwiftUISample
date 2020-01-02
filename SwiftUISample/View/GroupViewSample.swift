@@ -17,19 +17,18 @@ struct GroupViewSample: View {
                 Text("Hello World!")
                 Text("Hello Group!")
             }.padding(5)
-            .border(Color.gray.gradient, width: 1)
             .cornerRadius(5)
+            Divider().padding(EdgeInsets(top: 1, leading: 15, bottom: 1, trailing: 15))
             Group {
                 Text("Hello World!")
                 Text("Hello Group!")
             }.padding(5)
-            .border(Color.gray.gradient, width: 1)
             .cornerRadius(5)
+            Divider().padding(EdgeInsets(top: 1, leading: 15, bottom: 1, trailing: 15))
             Group {
                 Text("Hello World!")
                 Text("Hello Group!")
             }.padding(5)
-            .border(Color.gray.gradient, width: 1)
             .cornerRadius(5)
         }.navigationBarTitle("Group用法示例")
     }

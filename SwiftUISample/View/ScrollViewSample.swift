@@ -22,9 +22,9 @@ struct ScrollViewSample: View {
             Text("Views and controls are the visual building blocks of your app's user interface")
         }
         .border(Color.gray.gradient, width: 2)
-    .cornerRadius(1)
-    .padding(10)
-    .navigationBarTitle("ScrollView 用法示例")
+        .cornerRadius(1)
+        .padding(10)
+        .navigationBarTitle("ScrollView 用法示例")
     }
 }
 

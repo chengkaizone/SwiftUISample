@@ -29,6 +29,12 @@
 		EA48301823B5F81800E596DA /* SliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301723B5F81800E596DA /* SliderSample.swift */; };
 		EA48301A23B5F82400E596DA /* StepperSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301923B5F82400E596DA /* StepperSample.swift */; };
 		EA48301D23B6069B00E596DA /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48301C23B6069B00E596DA /* DateExtension.swift */; };
+		EA5DFFB123BDCA1E0007D1C6 /* NavigationViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFFB023BDCA1E0007D1C6 /* NavigationViewSample.swift */; };
+		EA5DFFB323BDCA550007D1C6 /* TableViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFFB223BDCA550007D1C6 /* TableViewSample.swift */; };
+		EA5DFFB523BDCACF0007D1C6 /* AlertViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFFB423BDCACF0007D1C6 /* AlertViewSample.swift */; };
+		EA5DFFB923BDCB3F0007D1C6 /* ModalViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFFB823BDCB3F0007D1C6 /* ModalViewSample.swift */; };
+		EA5DFFBB23BDCB780007D1C6 /* PopoverViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFFBA23BDCB780007D1C6 /* PopoverViewSample.swift */; };
+		EA5DFFBD23BDE0E80007D1C6 /* ActionSheetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFFBC23BDE0E80007D1C6 /* ActionSheetSample.swift */; };
 		EAB408D723BAF693000127FC /* ForEachViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB408D623BAF693000127FC /* ForEachViewSample.swift */; };
 		EAB408D923BAF9AB000127FC /* GroupViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB408D823BAF9AB000127FC /* GroupViewSample.swift */; };
 		EAB408DB23BB1109000127FC /* SectionViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB408DA23BB1109000127FC /* SectionViewSample.swift */; };
@@ -64,6 +70,12 @@
 		EA48301723B5F81800E596DA /* SliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSample.swift; sourceTree = "<group>"; };
 		EA48301923B5F82400E596DA /* StepperSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperSample.swift; sourceTree = "<group>"; };
 		EA48301C23B6069B00E596DA /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		EA5DFFB023BDCA1E0007D1C6 /* NavigationViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewSample.swift; sourceTree = "<group>"; };
+		EA5DFFB223BDCA550007D1C6 /* TableViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSample.swift; sourceTree = "<group>"; };
+		EA5DFFB423BDCACF0007D1C6 /* AlertViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewSample.swift; sourceTree = "<group>"; };
+		EA5DFFB823BDCB3F0007D1C6 /* ModalViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewSample.swift; sourceTree = "<group>"; };
+		EA5DFFBA23BDCB780007D1C6 /* PopoverViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewSample.swift; sourceTree = "<group>"; };
+		EA5DFFBC23BDE0E80007D1C6 /* ActionSheetSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetSample.swift; sourceTree = "<group>"; };
 		EAB408D623BAF693000127FC /* ForEachViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachViewSample.swift; sourceTree = "<group>"; };
 		EAB408D823BAF9AB000127FC /* GroupViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewSample.swift; sourceTree = "<group>"; };
 		EAB408DA23BB1109000127FC /* SectionViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewSample.swift; sourceTree = "<group>"; };
@@ -151,6 +163,12 @@
 				EAB408D623BAF693000127FC /* ForEachViewSample.swift */,
 				EAB408D823BAF9AB000127FC /* GroupViewSample.swift */,
 				EAB408DA23BB1109000127FC /* SectionViewSample.swift */,
+				EA5DFFB023BDCA1E0007D1C6 /* NavigationViewSample.swift */,
+				EA5DFFB223BDCA550007D1C6 /* TableViewSample.swift */,
+				EA5DFFB423BDCACF0007D1C6 /* AlertViewSample.swift */,
+				EA5DFFBC23BDE0E80007D1C6 /* ActionSheetSample.swift */,
+				EA5DFFB823BDCB3F0007D1C6 /* ModalViewSample.swift */,
+				EA5DFFBA23BDCB780007D1C6 /* PopoverViewSample.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,9 +260,11 @@
 				EAC40CAE23B9FEE4002583B5 /* ScrollViewSample.swift in Sources */,
 				EA48301223B5F7D400E596DA /* PickerSample.swift in Sources */,
 				EA48301D23B6069B00E596DA /* DateExtension.swift in Sources */,
+				EA5DFFBB23BDCB780007D1C6 /* PopoverViewSample.swift in Sources */,
 				EAC40CAC23B9FE3A002583B5 /* ListViewSample.swift in Sources */,
 				EA48301A23B5F82400E596DA /* StepperSample.swift in Sources */,
 				EA30D1A623B353110025E1B4 /* TextViewPage.swift in Sources */,
+				EA5DFFB523BDCACF0007D1C6 /* AlertViewSample.swift in Sources */,
 				EA48301023B5F40C00E596DA /* WebImageViewSample.swift in Sources */,
 				EAB408D923BAF9AB000127FC /* GroupViewSample.swift in Sources */,
 				EA48301823B5F81800E596DA /* SliderSample.swift in Sources */,
@@ -252,12 +272,16 @@
 				EA30D1A023B340EA0025E1B4 /* ListRowView.swift in Sources */,
 				EAC40CA823B9E599002583B5 /* VStackViewSample.swift in Sources */,
 				EAC40CA623B9E581002583B5 /* HStackViewSample.swift in Sources */,
+				EA5DFFB123BDCA1E0007D1C6 /* NavigationViewSample.swift in Sources */,
+				EA5DFFBD23BDE0E80007D1C6 /* ActionSheetSample.swift in Sources */,
 				EAB408DB23BB1109000127FC /* SectionViewSample.swift in Sources */,
 				EAB408D723BAF693000127FC /* ForEachViewSample.swift in Sources */,
 				EA30D1A423B34A5C0025E1B4 /* MyViewController.swift in Sources */,
 				EA30D18D23B3312B0025E1B4 /* ContentView.swift in Sources */,
 				EA30D19E23B33D7F0025E1B4 /* WebViewController.swift in Sources */,
+				EA5DFFB923BDCB3F0007D1C6 /* ModalViewSample.swift in Sources */,
 				EA30D1A223B348CD0025E1B4 /* ControllerWrapper.swift in Sources */,
+				EA5DFFB323BDCA550007D1C6 /* TableViewSample.swift in Sources */,
 				EA30D1A823B35DF50025E1B4 /* TextFieldView.swift in Sources */,
 				EA48301423B5F7F300E596DA /* DatePickerSample.swift in Sources */,
 				EA30D1AC23B365260025E1B4 /* ImageViewSample.swift in Sources */,

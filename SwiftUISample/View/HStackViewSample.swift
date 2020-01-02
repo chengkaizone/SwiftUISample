@@ -12,10 +12,10 @@ struct HStackViewSample: View {
     
     var body: some View {
         HStack {
-            Text("VStack made in China")
-            Divider()
+            Text("HStack made in China")
+            Divider().frame(width: 4, height: 24).background(Color.gray)
             Text("the People's Republic Of China")
-        }.navigationBarTitle("VStack 示例")
+        }.navigationBarTitle("HStack 示例")
     }
     
 }
